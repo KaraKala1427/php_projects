@@ -1,0 +1,23 @@
+[18-Mar-2021 14:47:38 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 33
+[18-Mar-2021 14:54:10 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'test2' in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 9
+[18-Mar-2021 14:54:11 Europe/Berlin] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 30
+[18-Mar-2021 14:54:11 Europe/Berlin] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, boolean given in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 33
+[18-Mar-2021 15:07:48 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'test1' in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 9
+[18-Mar-2021 15:59:28 Europe/Berlin] PHP Warning:  mysqli_connect(): (HY000/1049): Unknown database 'test9' in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 8
+[18-Mar-2021 16:03:38 Europe/Berlin] PHP Warning:  Use of undefined constant credentials - assumed 'credentials' (this will throw an Error in a future version of PHP) in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 7
+[18-Mar-2021 16:03:40 Europe/Berlin] PHP Warning:  mysqli_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 7
+[18-Mar-2021 16:03:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: php_network_getaddresses: getaddrinfo failed: No such host is known.  in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php:7
+Stack trace:
+#0 D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php(26): mysqli_query(Object(mysqli), 'SELECT value fr...')
+#1 {main}
+  thrown in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 26
+[18-Mar-2021 16:11:51 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'test.fibonaccit' doesn't exist in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php:27
+[18-Mar-2021 17:47:12 Europe/Berlin] PHP Warning:  error_log(/logs/main_error.log): failed to open stream: No such file or directory in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 17
+Unknown database 'tes'
+[18-Mar-2021 17:52:27 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'test.fibonaccik' doesn't exist in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php:27
+Stack trace:
+#0 D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php(27): mysqli_query(Object(mysqli), 'SELECT value fr...')
+#1 {main}
+  thrown in D:\Programs\xampp\htdocs\SlonWorks\fibonacci.php on line 27
+Table 'test.fibonaccik' doesn't exist
+
